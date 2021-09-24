@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+    color: #838dec;
+    font-weight: 600;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+header h1{
+    font-size: 35px;
+    margin-bottom: 26px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+header h1::before{
+    content: "";
+    height: 2px;
+    width: 60px;
+    background: #3763eb;
+    position: absolute;
+    top:58px;
+}
+
+header p{
+    color: #8f91a0;
+    font-weight: bold;
+    font-size: 15px; 
+}
+
+.p-lead{
+    color: #8f91a0;
+    font-size: 15px; 
+}
+
+.for-center{
+    display: flex;
+    justify-content: center;
+}
+
+.card-section img{
+    max-width: 100%;
+}
+
+.card-item h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card-item p{
+    width: 400px;
+}
+
+.card-section{
+    margin-bottom: 100px;
+}
+
+.user img{
+    top: 4px;
+}
+
+.user p{
+    top: 6px;
+    position: relative;
+}
+
+.user{
+    bottom: 10px;
+    left: 160px;
+}
+
+
+
+.footer{
+    background-color: #081828;
+    color: #fff;
+}
+
+
+.footer-widget ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-widget ul li {
+    margin: 10px 0;
+}
+.footer-widget ul li a {
+    text-decoration: none;
+    transition: .4s;
+    color: #969ba8;
+}
+
+
+/*  Footer Social  */
+.widget-social ul{
+    display: flex;
+}
+.widget-social ul li{
+    padding: 10px 0;
+    margin: 0 !important;
+}
+.widget-social ul li span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.widget-social ul li a {
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #edeeef;
+}
+
+
+.footer-copyright p{
+    margin-bottom: 0;
+    color: #ffff;
+}
+
+
+.footer-contact-item {
+    margin-bottom: 20px;
+}
+
+.footer-contact-item a {
+    text-decoration: none;
+}
+
+.paly-animation-btn:hover{
+    color: #9b59b6;
+}
+
+.footer-copyright a:hover{
+    color: #f16c40;
+}
+
+a{
+    color: #fff;
+}
+
+.footer-widget p{
+    font-size: 18px;
+    color: #dadcdf;
+}
+
+.footer-widget h3{
+    position: relative;
+}
+
+.footer-widget h3::before{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 3px;
+    background: #3763eb;
+    top: 5px;
+    left: -18px;
+}
